@@ -1320,6 +1320,7 @@ const storyScenes = {
     // Garden and observation scenes
     alternative_path: {
         text: "Decido no confiar ciegamente en las indicaciones. Busco un camino alternativo, consciente de que cada elección podría crear una nueva bifurcación en el tiempo.",
+        image: "assets/alternative_path.webp",
         choices: [
             {
                 text: "Seguir el sonido de la música",
@@ -1333,6 +1334,7 @@ const storyScenes = {
     },
     observe_garden: {
         text: "A través de las rejas, observo el jardín. Los senderos se bifurcan y entrelazan en patrones que me recuerdan extrañamente a los que describía mi antepasado. La música china flota en el aire.",
+        image: "assets/observe_garden.webp",
         choices: [
             {
                 text: "Llamar a la puerta",
@@ -1346,6 +1348,7 @@ const storyScenes = {
     },
     observe_gate: {
         text: "Me detengo a cierta distancia del portón. Desde aquí puedo ver un farol que se mueve entre los árboles, acercándose. La música se hace más clara.",
+        image: "assets/observe_gate.webp",
         choices: [
             {
                 text: "Esperar a que se acerque",
@@ -1360,6 +1363,7 @@ const storyScenes = {
     // Conversation and investigation scenes
     continue_conversation: {
         text: "'¿Es usted aficionado a la música china?', pregunta Albert. Su tono es casual, pero hay algo en su mirada que sugiere un conocimiento más profundo.",
+        image: "assets/continue_conversation.webp",
         choices: [
             {
                 text: "Hablar sobre China",
@@ -1373,6 +1377,7 @@ const storyScenes = {
     },
     plan_route: {
         text: "Estudio mentalmente el camino a seguir. Cada decisión podría ser crucial. Como en el jardín de mi antepasado, cada elección crea nuevas bifurcaciones.",
+        image: "assets/plan_route.webp",
         choices: [
             {
                 text: "Tomar la ruta más directa",
@@ -1386,6 +1391,7 @@ const storyScenes = {
     },
     examine_manuscript: {
         text: "Albert me muestra el manuscrito de Ts'ui Pên. Las páginas amarillentas están llenas de contradicciones aparentes. 'Su antepasado', dice, 'creía en infinitas series de tiempos.'",
+        image: "assets/examine_manuscript.webp",
         choices: [
             {
                 text: "Pedir más explicaciones",
@@ -1413,6 +1419,7 @@ const storyScenes = {
     },
     discuss_book: {
         text: "'El libro', explica Albert, 'es el laberinto. En él, todos los desenlaces ocurren simultáneamente. El tiempo se bifurca perpetuamente hacia innumerables futuros.'",
+        image: "assets/discuss_book.webp",
         choices: [
             {
                 text: "Preguntar por las contradicciones",
@@ -1426,6 +1433,7 @@ const storyScenes = {
     },
     deep_thoughts: {
         text: "Mientras el paisaje pasa por la ventana, medito sobre el tiempo y sus infinitas ramificaciones. ¿Cuántas versiones de mí mismo existen en este momento?",
+        image: "assets/deep_thoughts.webp",
         choices: [
             {
                 text: "Volver a la realidad presente",
@@ -1439,6 +1447,7 @@ const storyScenes = {
     },
     albert_background: {
         text: "Los rumores hablaban de un sinólogo británico, un estudioso que había sido misionero en Tientsin. Su conocimiento de la cultura china era legendario, especialmente su interés por los laberintos del tiempo.",
+        image: "assets/albert_background.webp",
         choices: [
             {
                 text: "Partir hacia Fenton",
@@ -1453,6 +1462,7 @@ const storyScenes = {
     // Time and philosophy related scenes
     time_contemplation: {
         text: "'El tiempo', dice Albert, 'se bifurca perpetuamente hacia innumerables futuros. A diferencia de Newton y de Schopenhauer, su antepasado no creía en un tiempo uniforme, absoluto.'",
+        image: "assets/time_contemplation.webp",
         choices: [
             {
                 text: "Pedir más detalles sobre la teoría",
@@ -1466,6 +1476,7 @@ const storyScenes = {
     },
     study_paradox: {
         text: "Examino las aparentes contradicciones del manuscrito. 'En el tercer capítulo muere el héroe, en el cuarto está vivo', le digo a Albert. 'Precisamente', responde él con una sonrisa.",
+        image: "assets/study_paradox.webp",
         choices: [
             {
                 text: "Escuchar la explicación",
@@ -1481,6 +1492,7 @@ const storyScenes = {
     // Conversation with Albert scenes
     discuss_china: {
         text: "'Fui misionero en Tientsin', dice Albert, 'antes de aspirar a sinólogo. La música es del periodo Ming tardío.' Su conocimiento parece infinito, como el jardín de mi antepasado.",
+        image: "assets/discuss_china.webp",
         choices: [
             {
                 text: "Preguntar por su investigación",
@@ -1494,6 +1506,7 @@ const storyScenes = {
     },
     watch_albert: {
         text: "Observo cuidadosamente sus reacciones. Sus ojos brillan con un conocimiento contenido, como si esperara el momento preciso para revelar algo importante.",
+        image: "assets/watch_albert.webp",
         choices: [
             {
                 text: "Revelar mi identidad",
@@ -1509,6 +1522,7 @@ const storyScenes = {
     // Station and movement scenes
     platform_stealth: {
         text: "Me muevo sigilosamente por el andén, manteniéndome en las sombras. Desde aquí puedo ver sin ser visto, mientras evalúo la situación.",
+        image: "assets/platform_stealth.webp",
         choices: [
             {
                 text: "Subir discretamente al tren",
@@ -1537,6 +1551,7 @@ const storyScenes = {
     // Alternative paths and endings
     alternate_ending: {
         text: "¿Y si existiera otra solución? Como en el jardín de mi antepasado, cada momento se bifurca en infinitas posibilidades. Pero Madden se acerca, y el tiempo se agota.",
+        image: "assets/alternate_ending.webp",
         choices: [
             {
                 text: "Buscar una salida pacífica",
@@ -1552,6 +1567,7 @@ const storyScenes = {
     // Park and approach scenes
     hurry_station: {
         text: "Atravieso el parque con paso rápido pero medido, intentando no llamar la atención. Cada sombra podría ser una amenaza, cada sonido podría ser Madden.",
+        image: "assets/hurry_station.webp",
         choices: [
             {
                 text: "Mantener el paso acelerado",
@@ -1565,6 +1581,7 @@ const storyScenes = {
     },
     cautious_approach: {
         text: "Me muevo con extrema precaución, deteniéndome periódicamente para escuchar y observar. La estación está cerca, pero la prudencia podría ser la diferencia entre la vida y la muerte.",
+        image: "assets/cautious_approach.webp",
         choices: [
             {
                 text: "Continuar hacia la estación",
@@ -1578,6 +1595,7 @@ const storyScenes = {
     },
     examine_surroundings: {
         text: "Me detengo a estudiar el diseño del jardín. Los senderos parecen formar patrones geométricos precisos, como si cada bifurcación hubiera sido cuidadosamente calculada. ¿Es este el verdadero laberinto de Ts'ui Pên?",
+        image: "assets/examine_surroundings.webp",
         choices: [
             {
                 text: "Seguir los patrones del jardín",
@@ -1591,6 +1609,7 @@ const storyScenes = {
     },
     follow_patterns: {
         text: "Al seguir el diseño del jardín, noto que cada sendero parece representar una posible decisión, un momento en el tiempo. La música china se hace más intensa.",
+        image: "assets/follow_patterns.webp",
         choices: [
             {
                 text: "Acercarme al origen de la música",
@@ -1604,6 +1623,7 @@ const storyScenes = {
     },
     philosophical_moment: {
         text: "Me detengo a reflexionar sobre mi situación. Como en el jardín de mi antepasado, cada decisión crea nuevas bifurcaciones en el tiempo. ¿Cuántos futuros posibles se están creando en este momento?",
+        image: "assets/philosophical_moment.webp",
         choices: [
             {
                 text: "Continuar el camino",
@@ -1619,6 +1639,7 @@ const storyScenes = {
     // Add prepare_departure scene
     prepare_departure: {
         text: "Me preparo para partir. Cada momento es crucial, y Madden podría estar cada vez más cerca. Reviso mentalmente mi plan mientras me dirijo hacia la puerta.",
+        image: "assets/prepare_departure.webp",
         choices: [
             {
                 text: "Salir inmediatamente",
