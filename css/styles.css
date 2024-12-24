@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: 'Times New Roman', serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-screen {
+    text-align: center;
+    margin-bottom: 40px;
+    /* Will be toggled by JavaScript */
+    display: none;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.credits {
+    font-style: italic;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.credits p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.title-image {
+    margin: 40px auto;
+    max-width: 600px;
+    height: auto;
+}
+
+.title-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.story-text {
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;  /* This preserves the \n newlines */
+}
+
+/* Add specific styling for paragraphs in the introduction */
+.story-text p {
+    margin-bottom: 2em;  /* Adds space between paragraphs */
+}
+
+.choices {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.choice-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.choice-btn:hover {
+    background-color: #333;
+}
+
+/* Special styling for the start button */
+.start-btn {
+    width: 200px;
+    margin: 30px auto;
+    font-size: 24px;
+    padding: 20px 40px;
+}
+
+.continue-btn {
+    width: 200px;
+    margin: 30px auto;
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #4a4a4a;
+}
+
+.scene-image {
+    width: 100%;
+    max-height: 400px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene-image img {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
