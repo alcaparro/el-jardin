@@ -46,7 +46,6 @@ const storyScenes = {
     },
     secret_thought: {
         text: "El casi intolerable recuerdo del rostro acaballado de Madden interrumpe mis divagaciones. En mitad de mi odio y de mi terror (ahora no me importa hablar de terror: ahora que he burlado a Richard Madden, ahora que mi garganta anhela la cuerda) pienso que ese guerrero tumultuoso y sin duda feliz no sospecha que poseo el Secreto. El nombre del preciso lugar del nuevo parque de artillería británico sobre el Ancre.",
-        image: "assets/secret_thought.webp",
         choices: [
             {
                 text: "Atender al teléfono que suena",
