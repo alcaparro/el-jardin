@@ -16,12 +16,47 @@ const storyScenes = {
         choices: [
             { 
                 text: "Continuar", 
-                nextScene: "discovery" // Changed this to match the next scene
+                nextScene: "contemplation" 
+            }
+        ]
+    },
+    contemplation: {
+        text: "Me pareció increíble que ese día sin premoniciones ni símbolos fuera el de mi muerte implacable. A pesar de mi padre muerto, a pesar de haber sido un niño en un simétrico jardín de Hai Feng ¿yo, ahora, iba a morir? Después reflexioné que todas las cosas le suceden a uno precisamente, precisamente ahora. Siglos de siglos y sólo en el presente ocurren los hechos; innumerables hombres en el aire, en la tierra y el mar, y todo lo que realmente pasa me pasa a mí…",
+        image: "assets/contemplation.webp",
+        choices: [
+            {
+                text: "Pensar en el Secreto",
+                nextScene: "secret_thought"
+            },
+            {
+                text: "Recordar el jardín de Hai Feng",
+                nextScene: "childhood_memory"
+            }
+        ]
+    },
+    childhood_memory: {
+        text: "El recuerdo del jardín simétrico de Hai Feng me transporta a mi niñez. Cada sendero, cada árbol, parecía contener un significado oculto. ¿Cuánto de ese niño perdura en el espía en que me he convertido? Pero el presente reclama mi atención...",
+        image: "assets/childhood_memory.webp",
+        choices: [
+            {
+                text: "Volver al presente",
+                nextScene: "secret_thought"
+            }
+        ]
+    },
+    secret_thought: {
+        text: "El casi intolerable recuerdo del rostro acaballado de Madden interrumpe mis divagaciones. En mitad de mi odio y de mi terror (ahora no me importa hablar de terror: ahora que he burlado a Richard Madden, ahora que mi garganta anhela la cuerda) pienso que ese guerrero tumultuoso y sin duda feliz no sospecha que poseo el Secreto. El nombre del preciso lugar del nuevo parque de artillería británico sobre el Ancre.",
+        image: "assets/secret_thought.webp",
+        choices: [
+            {
+                text: "Atender al teléfono que suena",
+                nextScene: "discovery"
             }
         ]
     },
     discovery: {
         text: "...y colgué el tubo. Inmediatamente después, reconocí la voz que había contestado en alemán. Era la del capitán Richard Madden. Madden, en el departamento de Viktor Runeberg, quería decir el fin de nuestros afanes y —pero eso parecía muy secundario, o debería parecérmelo— también de nuestras vidas. Quería decir que Runeberg había sido arrestado o asesinado.",
+        image: "assets/discovery.webp",
         choices: [
             { 
                 text: "Huir inmediatamente de la casa", 
